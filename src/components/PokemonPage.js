@@ -75,6 +75,8 @@ class PokemonPage extends React.Component {
 
       const {pokemons, searchTerm} = this.state
 
+    
+
       let array = pokemons.filter(pokemon => {
            
          return pokemon.name.toLowerCase().includes(searchTerm)
